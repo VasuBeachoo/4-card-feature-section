@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+}
+
+.component-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(0, 0%, 98%);
+  min-height: 100vh;
+}
+
+.component {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  padding: 40px 120px;
+  margin: 25px;
+}
+
+.top-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.light-heading {
+  font-weight: 200;
+  color: hsl(234, 12%, 34%);
+}
+
+.bold-heading {
+  font-weight: 600;
+  color: hsl(234, 12%, 34%);
+}
+
+.light-text {
+  font-weight: 400;
+  color: hsl(229, 6%, 66%);
+}
+
+.top-heading {
+  font-size: 26px;
+  margin: 0;
+}
+
+.heading-text {
+  font-size: 12.5px;
+  width: 60%;
+}
+
+.bottom-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #ffffff;
+  width: 100%;
+  padding: 10px 20px;
+  margin: 15px;
+}
+
+.card-icon {
+  align-self: flex-end;
+}
