@@ -117,3 +117,23 @@ body {
 .blue-card {
   border-color: hsl(212, 86%, 64%);
 }
+
+@media (max-width: 910px) {
+  .component {
+    width: 410px;
+    padding: 0;
+  }
+
+  .bottom-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card-column {
+    width: 70%;
+  }
+
+  .card {
+    width: 100%;
+  }
+}
